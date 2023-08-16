@@ -19,4 +19,4 @@ There are very few class names that need to be used, and you can get a very simp
 
 In future updates, we will **continue to improve and introduce a suite-like class name**, you only need to use this suite-like class name to get multiple styles together button style
 
-Finally,thanks to use Cobu.If you have any question or any suggestion,you can submit a **Issue**,we will reply you very soon!
+Finally, thanks to use Cobu.If you have any question or any suggestion, you can submit a **Issue**, we will reply you very soon!
