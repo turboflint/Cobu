@@ -44,7 +44,7 @@ is that you can arbitrary combination，just like:
 ```html
 <button class="flat radius block">Button</button>
 ```
-![button](flat_button.jpg)
+![button](image/flat_button.jpg)
 
 Look!A flat radius block button is right here!We made it!
 
