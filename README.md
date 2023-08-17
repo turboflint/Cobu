@@ -1,5 +1,5 @@
 # Cobu
-[简体中文](ZH-Hans.md)
+[简体中文](Zh-Hans.md)
 
 Cobu is a button CSS style that can be quickly invoked for use and has a wealth of customization options.
 
