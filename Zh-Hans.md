@@ -50,6 +50,7 @@ Cobu提供了非常多的预设定按钮样式，你可以通过我们提供的e
 ```html
 <button class="flat radius block">Button</button>
 ```
+![flat_button.jpg](image/flat_button.jpg)
 
 看，就像一个句子一样，非常简单。而且类名也简单易懂！
 
@@ -66,6 +67,7 @@ Cobu提供了非常多的预设定按钮样式，你可以通过我们提供的e
 ```html
 <button class="flat radius block blue">Button</button>
 ```
+![blue_button](image/blue_button.jpg)
 
 这样你就得到了一个**蓝色的扁平圆圆的Block按钮**
 
