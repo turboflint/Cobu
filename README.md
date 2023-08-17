@@ -37,7 +37,16 @@ Cobu provides a lot of preset button styles. You can check them through the exam
 |`md`|Middle size button|
 |`lg`|Large size button|
 |`block`|Block button|
-|`full-blocl`|Buttons spread across the width of the screen|
+|`full-block`|Buttons spread across the width of the screen|
+
+Attention!Cobu's funny thing
+is that you can arbitrary combination，just like:
+```html
+<button class="flat radius block">Button</button>
+```
+![button](flat_button.jpg)
+
+Look!A flat radius block button is right here!We made it!
 
 # Cobu's benefit
 There are very few class names that need to be used, and you can get a very simple style without using a class name.
