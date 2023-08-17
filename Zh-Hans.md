@@ -46,7 +46,7 @@ Cobu提供了非常多的预设定按钮样式，你可以通过我们提供的e
 ## 直接通过类名
 我们预设了一些颜色，你可以看看下面的图片：
 
-![[buttons_color.jpg]]
+[![pPljr9K.jpg](https://s1.ax1x.com/2023/08/17/pPljr9K.jpg)]
 
 比如说：
 
