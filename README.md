@@ -13,7 +13,7 @@ And,don't forget to include css file,just like this:
 <link rel="stylesheet" href="style.css">
 ```
 
-##JsDelivr
+## JsDelivr
 You can use JsDelivr,That will be very convenient:
 ```html
 <linl rel="stylesheet" href="https://cdn.jsdelivr.net/gh/overraystyle/Cobu@latest/style.css">
