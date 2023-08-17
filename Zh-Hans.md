@@ -16,10 +16,14 @@ Cobu 是一个按钮CSS样式，可以快速调用使用，并具有丰富的自
 使用JsDelivr，能够减少项目大小，也能快速使用，无需下载：
 
 **国内地区**
-``https://fastly.jsdelivr.net/gh/overraystyle/Cobu@latest/style.css``
+```html
+<linl rel="stylesheet" href="https://fastly.jsdelivr.net/gh/overraystyle/Cobu@latest/style.css">
+```
 
 **海外地区**
-``https://cdn.jsdelivr.net/gh/overraystyle/Cobu@latest/style.css``
+```html
+<linl rel="stylesheet" href="https://cdn.jsdelivr.net/gh/overraystyle/Cobu@latest/style.css">
+```
 
 # 按钮样式
 Cobu提供了非常多的预设定按钮样式，你可以通过我们提供的example.html文件来查看，或者直接上手试一试吧！
@@ -91,7 +95,7 @@ Cobu的包体内包含了一个JavaScript文件，这也是AbundantCSS的特殊�
 <script src="https://fastly.jsdelivr.net/gh/overraystyle/Cobu@latest/quicker.js">
 ```
 
-
+## 自定义颜色
 尝试快速自定义你的按钮颜色：
 
 ```html
