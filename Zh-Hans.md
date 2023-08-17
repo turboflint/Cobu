@@ -79,6 +79,19 @@ Cobu的包体内包含了一个JavaScript文件，这也是AbundantCSS的特殊�
 <script src="quicker.js">
 ```
 
+或使用**JsDelivr**：
+
+**国内地区**
+```html
+<script src="https://fastly.jsdelivr.net/gh/overraystyle/Cobu@latest/quicker.js">
+```
+
+**国外地区**
+```html
+<script src="https://fastly.jsdelivr.net/gh/overraystyle/Cobu@latest/quicker.js">
+```
+
+
 尝试快速自定义你的按钮颜色：
 
 ```html
