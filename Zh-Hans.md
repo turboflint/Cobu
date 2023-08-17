@@ -4,6 +4,7 @@
 Cobu 是一个按钮CSS样式，可以快速调用使用，并具有丰富的自定义选项。
 
 # 如何使用？
+## 本地文件
 下载所有的文件并解压，也许你可以运行**example.html**，查看各种样式。
 
 别忘了引入CSS文件，就像这样:
@@ -11,6 +12,14 @@ Cobu 是一个按钮CSS样式，可以快速调用使用，并具有丰富的自
 ```html
 <link rel="stylesheet" href="style.css">
 ```
+## JsDelivr
+使用JsDelivr，能够减少项目大小，也能快速使用，无需下载：
+
+**国内地区**
+``https://fastly.jsdelivr.net/gh/overraystyle/Cobu@latest/style.css``
+
+**海外地区**
+``https://cdn.jsdelivr.net/gh/overraystyle/Cobu@latest/style.css``
 
 # 按钮样式
 Cobu提供了非常多的预设定按钮样式，你可以通过我们提供的example.html文件来查看，或者直接上手试一试吧！
