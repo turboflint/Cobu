@@ -14,15 +14,24 @@ Cobu 是一个按钮CSS样式，可以快速调用使用，并具有丰富的自
 ## JsDelivr
 使用JsDelivr，能够减少项目大小，也能快速使用，无需下载：
 
-**国内地区**
 ```html
 <linl rel="stylesheet" href="https://fastly.jsdelivr.net/gh/overraystyle/Cobu@latest/style.css">
 ```
 
-**海外地区**
+# 颜色
+我们预设了一些颜色，你可以看看下面的图片：
+
+![button_colors_1.0.1](image/button_colors_1.0.1.jpg)
+
+比如说：
+
 ```html
-<linl rel="stylesheet" href="https://cdn.jsdelivr.net/gh/overraystyle/Cobu@latest/style.css">
+<button class="flat radius block blue">Button</button>
 ```
+![blue_button](image/blue_button.jpg)
+
+这样你就得到了一个**蓝色的扁平圆圆的Block按钮**
+
 
 # 按钮样式
 Cobu提供了非常多的预设定按钮样式，你可以通过我们提供的example.html文件来查看，或者直接上手试一试吧！
@@ -58,74 +67,23 @@ Cobu提供了非常多的预设定按钮样式，你可以通过我们提供的e
 |样式类名|样式图|样式说明|
 |----|----|----|
 |sm-flat|![sm-flat](image/sm-flat.jpg)|小字体的肥胖按钮|
-|tag|![tag](tag.jpg)|标签按钮|
+|tag|![tag](image/tag.jpg)|标签按钮|
 
-# 颜色样式
-我们预设了一些样式，你可以通过两种方式获取颜色。
-
-## 直接通过类名
-我们预设了一些颜色，你可以看看下面的图片：
-
-![buttons color](buttons_color.jpg)
-
-比如说：
-
+# Hover
+Cobu也支持Hover样式，只需要添加一个Hover类名即可
 ```html
-<button class="flat radius block blue">Button</button>
+<button class="hover">Hover</button>
 ```
-![blue_button](image/blue_button.jpg)
-
-这样你就得到了一个**蓝色的扁平圆圆的Block按钮**
-
-## 自定义
-
-Cobu的包体内包含了一个JavaScript文件，这也是AbundantCSS的特殊点之一，我们称他为**Quicker**，只需要像这样，你就可以自定义颜色了：
-
-**请注意，该自定义起初是给已经引入其他框架的开发者提供的，如果该框架会导致按钮样式失效或错乱，开发者可以通过这个方式开恢复按钮样式**
-
-**Quicker.js仍在测试阶段，如果有出现任何错误，请停止使用！**
-
-引入Quicker.js文件：
-
+添加颜色:
 ```html
-<script src="quicker.js">
+<button class="hover orange">Hover</button><br>
 ```
-
-或使用**JsDelivr**：
-
-**国内地区**
-```html
-<script src="https://fastly.jsdelivr.net/gh/overraystyle/Cobu@latest/quicker.js">
-```
-
-**国外地区**
-```html
-<script src="https://fastly.jsdelivr.net/gh/overraystyle/Cobu@latest/quicker.js">
-```
-
-## 自定义颜色
-尝试快速自定义你的按钮颜色：
-
-```html
-<button class="flat" color="black">Button</button>
-```
-
-这样你会获得一个黑色的按钮！
-
-如果你要自定义文字颜色的话，也非常简单，就像这样：
-
-```html
-<button class="flat" text="white">Button</button>
-```
-
-按钮的颜色就变成白色了！
-
+直接添加颜色即可。
 
 # 自定义按钮
 我们预设定了三个大小，如果你觉得不满意，你可以引入Quicker.js来自定义大小
 
-首先按照上面说的一样，引入Quicker.js......
-
+首先按照上面说的一样，引入Quicker.j
 ## 按钮字体大小
 ```html
 <button class="radius" font="3em">Button</button>
