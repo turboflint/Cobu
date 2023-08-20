@@ -71,6 +71,7 @@ Cobu提供了非常多的预设定按钮样式，你可以通过我们提供的e
 
 # Hover
 Cobu也支持Hover样式，只需要添加一个Hover类名即可
+![hover](image/hover_style.jpg)
 ```html
 <button class="hover">Hover</button>
 ```
