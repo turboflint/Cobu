@@ -80,34 +80,74 @@ Cobu也支持Hover样式，只需要添加一个Hover类名即可
 ```
 直接添加颜色即可。
 
-# 自定义按钮
-我们预设定了三个大小，如果你觉得不满意，你可以引入Quicker.js来自定义大小
+# 自定义选项
+Cobu提供了一个自定义选项，如果你需要使用自定义的话，引入quicker.js文件即可
+```html
+<linl rel="stylesheet" href="https://cdn.jsdelivr.net/gh/overraystyle/Cobu@latest/quicker.js">
+```
 
-首先按照上面说的一样，引入Quicker.j
+> quicker.js仍在测试阶段，若出现任何问题，请停止使用quicker.js，谢谢！
+
+## 按钮颜色
+> 参数：`color`
+> 说明：可自定义按钮的颜色
+> 不支持类型：hover
+> 版本：1.0
+
+使用示例：
+```html
+<button class="radius" color="red">Button</button>
+```
+
+## hover 按钮颜色
+> 参数：`hover`
+> 说明：可自定义`hover`类型的按钮颜色
+> 不支持类型：仅支持hover
+> 版本：1.0.1
+
+使用示例：
+```html
+<button class="hover" hover="red">Button</button>
+```
+
 ## 按钮字体大小
+> 参数：`font`
+> 说明：可自定义按钮字体大小
+> 不支持类型：none
+> 版本：1.0
+
+使用示例：
 ```html
 <button class="radius" font="3em">Button</button>
 ```
-## 按钮左右边距大小
-> 为了美观，左右边距必须一致
 
-> lr是left and right的缩写
+## 按钮左右边距大小
+> 参数：`lr`
+> 说明：同时调整按钮左右边距
+> 不支持类型：none
+> 版本：1.0
+
+使用示例：
 ```html
 <button class="radius" lr="10px">Button</button>
 ```
 
 ## 按钮上下边距大小
-> 就像上面说的一样，为了美观！
+> 参数：`ud`
+> 说明：同时调整按钮的上下边距大小
+> 不支持类型：none
+> 版本：1.0
 
-> ud是up and down的缩写
-
+使用示例：
 ```html
 <button class="radius" ud="10px">Button</button>
 ```
 
 ## 按钮圆角度
-
-> 如果你使用了`radius`类名，这个设置可能会失效！
+> 参数：`radius`
+> 说明：调整按钮的radius度
+> 不支持类型：`radius`
+> 版本：1.0
 
 ```html
 <button radius="10px">Button</button>
