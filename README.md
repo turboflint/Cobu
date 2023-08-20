@@ -16,7 +16,7 @@ Cobu 是一个按钮CSS样式，可以快速调用使用，并具有丰富的自
 使用JsDelivr，能够减少项目大小，也能快速使用，无需下载：
 
 ```html
-<linl rel="stylesheet" href="https://fastly.jsdelivr.net/gh/overraystyle/Cobu@latest/style.css">
+<linl rel="stylesheet" href="https://fastly.jsdelivr.net/gh/electronic1028/Cobu@latest/style.css">
 ```
 
 # 颜色
@@ -86,7 +86,7 @@ Cobu也支持Hover样式，只需要添加一个Hover类名即可
 # 自定义选项
 Cobu提供了一个自定义选项，如果你需要使用自定义的话，引入quicker.js文件即可
 ```html
-<linl rel="stylesheet" href="https://cdn.jsdelivr.net/gh/overraystyle/Cobu@latest/quicker.js">
+<linl rel="stylesheet" href="https://cdn.jsdelivr.net/gh/electronic1028/Cobu@latest/quicker.js">
 ```
 
 > quicker.js仍在测试阶段，若出现任何问题，请停止使用quicker.js，谢谢！
