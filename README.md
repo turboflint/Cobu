@@ -1,5 +1,4 @@
 # Cobu
-[English](README.md)
 
 Cobu 是一个按钮CSS样式，可以快速调用使用，并具有丰富的自定义选项。
 
