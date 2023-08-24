@@ -1,5 +1,23 @@
+:root {
+    --blue: rgb(36, 134, 185);
+    --blue-2: rgb(14, 176, 201);
+    --deep-blue: rgb(4, 87, 251);
+    --sea-blue: rgb(1, 112, 227);
+    --orange: rgb(239, 99, 43);
+    --orange-2: rgb(250, 126, 35);
+    --green: rgb(36, 128, 103);
+    --green-2: rgb(34, 148, 83);
+    --green-3: rgb(32, 161, 98);
+    --yellow: rgb(251, 205, 49);
+    --yellow-2: rgb(252, 195, 7);
+    --purple: rgb(126, 22, 113);
+    --purple-2: rgb(128, 109, 158);
+    --brown: rgb(145, 128, 114);
+    --pink: rgb(232,122,144);
+}
+
 button {
-    background: rgb(235, 235, 235);
+    background: rgb(227, 227, 227);
     outline: none;
     border: none;
     padding-left: 40px;
@@ -27,23 +45,25 @@ button {
     padding-bottom: 10px;
 }
 
-.no-padding{
+.no-padding {
     padding-left: 0px;
     padding-right: 0px;
 }
 
-.flat{
-    padding:0px;
+.flat {
+    padding: 0px;
     padding-top: 3px;
-    padding-bottom:3px;
+    padding-bottom: 3px;
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
 }
-.border{
+
+.border {
     outline: auto;
     border: auto;
 }
+
 .padding {
     padding-left: 40px;
     padding-right: 40px;
@@ -61,14 +81,15 @@ button {
     font-size: 20px;
     text-align: center;
 }
-.icon{
+
+.icon {
     padding-top: 10px;
     padding-bottom: 8px;
     padding-left: 12px;
     padding-right: 12px;
 }
 
-.sm{
+.sm {
     padding-left: 35px;
     padding-right: 35px;
     padding-top: 7px;
@@ -76,14 +97,15 @@ button {
     font-size: 15px;
 }
 
-.md{
+.md {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 12px;
     padding-bottom: 12px;
     font-size: 20px;
-    
+
 }
+
 .lg {
     padding-left: 45px;
     padding-right: 45px;
@@ -98,57 +120,305 @@ button {
     padding-top: 12px;
     padding-bottom: 12px;
 }
-.full-block{
+
+.full-block {
     width: 100%;
     padding-top: 12px;
     padding-bottom: 12px;
 }
 
+/* Colors */
 .orange {
-    background: rgb(239, 99, 43);
+    background: var(--orange);
     color: white;
 }
 
 .orange-2 {
-    background: rgb(250, 126, 35);
+    background: var(--orange-2);
     color: white;
 }
 
+.hover.orange-2 {
+    color: var(--orange-2);
+    transition: background 0.2s;
+    border: 1px solid var(--orange-2);
+}
+
+.hover.orange-2:hover {
+    background: var(--orange-2);
+    color: white;
+    border: 1px solid var(--orange-2);
+}
+
 .green {
-    background: rgb(36, 128, 103);
+    background: var(--green);
     color: white;
 }
 
 .green-2 {
-    background: rgb(34, 148, 83);
+    background: var(--green-2);
     color: white;
 }
 
 .green-3 {
-    background: rgb(32, 161, 98);
+    background: var(--green-3);
     color: white;
 }
-.blue{
-    background: rgb(36,134,185);
+
+.blue {
+    background: var(--blue);
     color: white;
 }
-.blue-2{
-    background: rgb(14,176,201);
+
+.blue-2 {
+    background: var(--blue-2);
     color: white;
 }
-.yellow{
-    background: rgb(251,205,49);
+
+.deep-blue {
+    background: var(--deep-blue);
     color: white;
 }
-.yellow-2{
-    background: rgb(252,195,7);
+
+.sea-blue {
+    background: var(--sea-blue);
     color: white;
 }
-.purple{
-    background: rgb(126,22,113);
+
+.yellow {
+    background: var(--yellow);
+    color: black;
+}
+
+.yellow-2 {
+    background: var(--yellow-2);
     color: white;
 }
-.purple-2{
-    background: rgb(128,109,158);
+
+.purple {
+    background: var(--purple);
+    color: white;
+}
+
+.purple-2 {
+    background: var(--purple-2);
+    color: white;
+}
+
+.brown {
+    background: var(--purple-2);
+    color: white;
+}
+
+.pink{
+    background: var(--pink);
+    color: white;
+}
+/* Hollow Colors */
+
+.hover.orange {
+    color: var(--orange);
+    transition: background 0.2s;
+    border: 1px solid var(--orange);
+}
+
+.hover.orange:hover {
+    background: var(--orange);
+    color: white;
+    border: 1px solid var(--orange);
+}
+
+.hover.orange-2 {
+    color: var(--orange-2);
+    transition: background 0.2s;
+    border: 1px solid var(--orange-2);
+}
+
+.hover.orange-2:hover {
+    background: var(--orange-2);
+    color: white;
+    border: 1px solid var(--orange-2);
+}
+
+.hover.green {
+    color: var(--green);
+    transition: background 0.2s;
+    border: 1px solid var(--green);
+}
+
+.hover.green:hover {
+    background: var(--green);
+    color: white;
+    border: 1px solid var(--green);
+}
+
+.hover.green-2 {
+    color: var(--green-2);
+    transition: background 0.2s;
+    border: 1px solid var(--green-2);
+}
+
+.hover.green-2:hover {
+    background: var(--green-2);
+    color: white;
+    border: 1px solid var(--green-2);
+}
+
+.hover.green-3 {
+    color: var(--green-3);
+    transition: background 0.2s;
+    border: 1px solid var(--green-3);
+}
+
+.hover.green-3:hover {
+    background: var(--green-3);
+    color: white;
+    border: 1px solid var(--green-3);
+}
+
+.hover.blue {
+    color: var(--blue);
+    transition: background 0.2s;
+    border: 1px solid var(--blue);
+}
+
+.hover.blue:hover {
+    background: var(--blue);
+    color: white;
+    border: 1px solid var(--blue);
+}
+
+.hover.blue-2 {
+    color: var(--blue-2);
+    transition: background 0.2s;
+    border: 1px solid var(--blue-2);
+}
+
+.hover.blue-2:hover {
+    background: var(--blue-2);
+    color: white;
+    border: 1px solid var(--blue-2);
+}
+
+.hover.deep-blue {
+    color: var(--deep-blue);
+    transition: background 0.2s;
+    border: 1px solid var(--deep-blue);
+}
+
+.hover.deep-blue:hover {
+    background: var(--deep-blue);
+    color: white;
+    border: 1px solid var(--deep-blue);
+}
+
+.hover.sea-blue {
+    color: var(--sea-blue);
+    transition: background 0.2s;
+    border: 1px solid var(--sea-blue);
+}
+
+.hover.sea-blue:hover {
+    background: var(--sea-blue);
+    color: white;
+    border: 1px solid var(--sea-blue);
+}
+
+
+.hover.yellow {
+    color: var(--yellow);
+    transition: background 0.2s;
+    border: 1px solid var(--yellow);
+}
+
+.hover.yellow:hover {
+    background: var(--yellow);
+    color: black;
+    border: 1px solid var(--yellow);
+}
+
+.hover.yellow-2 {
+    color: var(--yellow-2);
+    transition: background 0.2s;
+    border: 1px solid var(--yellow-2);
+}
+
+.hover.yellow-2:hover {
+    background: var(--yellow-2);
+    color: white;
+    border: 1px solid var(--yellow-2);
+}
+
+.hover.purple {
+    color: var(--purple);
+    transition: background 0.2s;
+    border: 1px solid var(--purple);
+}
+
+.hover.purple:hover {
+    background: var(--purple);
+    color: white;
+    border: 1px solid var(--purple);
+}
+
+.hover.purple-2 {
+    color: var(--purple-2);
+    transition: background 0.2s;
+    border: 1px solid var(--purple-2);
+}
+
+.hover.purple-2:hover {
+    background: var(--purple-2);
+    color: white;
+    border: 1px solid var(--purple-2);
+}
+
+.hover.brown {
+    color: var(--brown);
+    transition: background 0.2s;
+    border: 1px solid var(--brown);
+}
+
+.hover.brown:hover {
+    background: var(--brown);
+    color: white;
+    border: 1px solid var(--brown);
+}
+
+.hover.pink {
+    color: var(--pink);
+    transition: background 0.2s;
+    border: 1px solid var(--pink);
+}
+
+.hover.pink:hover {
+    background: var(--pink);
+    color: white;
+    border: 1px solid var(--pink);
+}
+/* v1.0.1 New Styles */
+
+.sm-fat {
+    border-radius: 50px;
+    padding: 0px;
+    padding: 10px 15px 10px 15px;
+}
+
+
+.tag {
+    font-size: 0.85em;
+    border-radius: 50px;
+    padding: 5px 13px 5px 13px;
+}
+
+/* Hover buttons */
+.hover {
+    background: white;
+    border: 1px solid black;
+    transition: background 0.2s;
+}
+
+.hover:hover {
+    background: black;
     color: white;
 }
